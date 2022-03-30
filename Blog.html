@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="author" content="Ayush Buradkar">
+    <meta name="description" content="Blogging Website">
+    <link rel="stylesheet" href="Blog.css">
+    <script type="text/javascript" src="Blog.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body onload="Display()">
+    <header id="H">
+        <h1>Learning Time👨‍💻</h1>
+        <nav>
+            <small>
+            <a href="#">Home <i class="fa fa-home"></i></a> |
+            <label for="select" style="color:#0577b4">Category </label>
+            <select  name="select" id="select" style="color:#0082ca; border-radius:6px"  onchange="location = this.value;">
+                <option></option>
+                <option >Web</option>
+                <option >Technology</option>
+                <option>IOT</option>
+            </select>
+             |
+            <a href="#Ft" style="transition: 5s;">Contact <i class="fa fa-phone"></i></a>
+            <p id="UI" style="border:2px solid dodgerblue;float: right;color:#0577b4;margin-right:10px;margin-top:2px;">User-ID</p>
+            </small>
+        </nav>
+    </header>
+    <div id="U">
+        <img src="B1.jpg" style="height:30%; width:100%">
+        <div class="Cleft">
+            <p>Hey there !😃<br> Welcome to <q style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(202, 230, 255);">Learning time</q><br> Best blog website to learn</p>
+            <a href="#C" class="btn btn-primary">Let's Go &#128171;</a>
+        </div>
+    </div>
+    <div class=" scroll-up-btn ">
+        <a href="#U ">
+            <i class="fa fa-angle-up "></i>
+        </a>
+    </div>
+
+    <div class="container C " id="C">
+
+        <article>
+            <aside class="A ">
+                <div id="D2 ">
+                    <h3 style="text-align:center ">Recent Posts</h3>
+                    <hr style="border:2px double rgb(240, 236, 236) ">
+                    <section style="display:inline-block;text-align: justify;text-indent: 15px;width:100% ">
+                        <img src="black-man-working-laptop-freelance-remote-working-online-studying-work-from-home_254685-307.jpg " width="40% " height="100px ">
+                        <a href="# ">
+                            <h4>Be a designer</h4>
+                        </a>
+                        <p style="opacity:0.6; ">Jan 30,2022</p>
+                    </section>
+                    <hr style="clear: both; ">
+                    <section style="display:inline-block;text-align: justify;text-indent: 15px;width:100% ">
+                        <img src="cc.png " width="40% ">
+                        <a href="# ">
+                            <h4>Cloud services</h4>
+                        </a>
+                        <p style="opacity:0.6; ">Jan 25,2022</p>
+                    </section>
+                    <hr style="clear: both; ">
+                    <section style="display:inline-block;text-align: justify;text-indent: 15px;width:100% ">
+                        <img src="IOT.jpeg " width="40% ">
+                        <a href="# ">
+                            <h4>IOT world</h4>
+                        </a>
+                        <p style="opacity:0.6; ">Jan 20,2022</p>
+                    </section>
+                    <hr style="clear: both; ">
+                    <section style="display:inline-block;text-align: justify;text-indent: 15px;width:100% ">
+                        <img src="DW.jpeg " width="40% " height="105px ">
+                        <a href="# ">
+                            <h4>Data Wranggling</h4>
+                        </a>
+                        <p style="opacity:0.6; ">Jan 15,2022</p>
+                    </section>
+                </div>
+
+                <div id="D1 ">
+                    <h3 style="text-align:center ">Popular Posts</h3>
+                    <hr style="border:2px double rgb(240, 236, 236) ">
+                    <section style="display:inline-block;text-align: justify;text-indent: 15px;width:100% ">
+                        <img src="AIML.png " width="40% ">
+                        <a href="# ">
+                            <h4>AI and ML</h4>
+                        </a>
+                        <p style="opacity:0.6; ">Dec 12,2021</p>
+                    </section>
+
+                    <hr style="clear: both; ">
+                    <section style="display:inline-block;text-align: justify;text-indent: 15px;width:100% ">
+                        <img src="BD.jpeg " width="40% " height="100px ">
+                        <a href="# ">
+                            <h4>Big Data</h4>
+                        </a>
+                        <p style="opacity:0.6; ">Oct 26,2021</p>
+                    </section>
+                    <hr style="clear: both; ">
+                    <section style="display:inline-block;text-align: justify;text-indent: 15px;width:100% ">
+                        <img src="images.jpeg " width="40% " height="100px ">
+                        <a href="# ">
+                            <h4>Be a coder</h4>
+                        </a>
+                        <p style="opacity:0.6; ">June 6,2021</p>
+                    </section>
+                </div>
+                <div id="D3">
+                    <h3 style="text-align:center ">Subscribe</h3>
+                    <hr style="border:2px double rgb(240, 236, 236) ">
+                    <p>
+                        Enter your e-mail below and get notified on the latest blog posts.
+                    </p>
+                    <form style="text-align:center">
+                        <input type="email" id="Em" name="Em" placeholder="Ex. name123@gmail.com" style="margin: 4px;padding: 2px;">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </aside>
+            <section class="A1 ">
+                <h2>Web Browsers</h2>
+                <hr>
+                <p style="text-align: right ;opacity:0.6; "><img src="C:\Users\HP\Google Drive\Documents\passport photo.jpg " alt="author img " class="I1 " style="width:6%;height:6%;border-radius:50%;filter:contrast(200%) brightness(120%);border:2px
+            solid rgba(32, 31, 31, 0.425);opacity: 1; "> Ayush | Feb 4,2022</p>
+                <div><img src="download.jpeg " alt="Browser icon "></div>
+
+                <article>
+                    <h4>Google Chrome</h4>
+                    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+                </article>
+
+                <article>
+                    <h4>Mozilla Firefox</h4>
+                    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+                </article>
+
+                <article>
+                    <h4>Microsoft Edge</h4>
+                    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+                </article>
+                <hr>
+                <span id="CountedClicks" style="color: azure; ">0</span>
+                <button onclick="AddClick()" style="border-radius: 8px; border:none "><i class="fa fa-heart "  style="color: rgb(243, 154, 154); "></i></button>
+                <button style="float:right;border-radius: 8px;border: none; " onclick="Comments()">Comments<i class="fa fa-comment-o"></i></button>
+
+                <div style="display: none;" id="cm">
+                    <p>
+                        <i class="fa fa-user-circle"> User1</i> |Thank you,very helpful 🤗
+                    </p>
+                    <p>
+                        <i class="fa fa-user-circle"> User4</i> |Good work 👏
+                    </p>
+                    <div>
+                        <label for="co"><i class="fa fa-user-circle-o"></i></label>
+                        <input type="text" placeholder="Add a comment..." id="co" name="co">
+                        <input type="submit" value="Post" style="border:none;background: transparent;">
+                    </div>
+                </div>
+            </section>
+
+            <section class="A2 ">
+                <h2>Web Languages</h2>
+                <hr>
+                <p style="text-align: right ;opacity:0.6; "><img src="C:\Users\HP\Google Drive\Documents\passport photo.jpg " alt="author img " class="I2 " style="width:6%;height:6%;border-radius:50%;filter:contrast(200%) brightness(120%);border:2px
+            solid rgba(36, 35, 35, 0.425);opacity:1; "> Ayush | Feb 6,2022</p>
+                <div><img src="download.png " alt="Lang icon "></div>
+                <br>
+                <article>
+                    <h4>HTML</h4>
+                    <p>Hyper Text Markup Language(HTML) is the standard markup language for Web pages. With HTML you can create your own Website.</p>
+                </article>
+
+                <article>
+                    <h4>CSS</h4>
+                    <p>Cascading Stylee Sheet(CSS) is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.</p>
+                </article>
+
+                <article>
+                    <h4>JS</h4>
+                    <p>JavaScript(JS) is the programming language of the Web.JS is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.</p>
+                </article>
+                <hr>
+                <span id="CountedClicks1" style="color:azure; ">0</span>
+                <button onclick="AddClick1()" style="border-radius: 8px;border: none; "><i class="fa fa-heart " style="color: rgb(243, 154, 154); "></i></button>
+                <button style="float:right;border-radius: 8px;border: none; " onclick="Comments1()">Comments<i class="fa fa-comment-o"></i></button>
+
+                <div style="display: none;" id="cm1">
+                    <p>
+                        <i class="fa fa-user-circle"> User1</i> | Thank you,very helpful 🤗 </p>
+                    <p>
+                        <i class="fa fa-user-circle"> User2</i> |Good work 👏
+                    </p>
+                    <p>
+                        <i class="fa fa-user-circle"> User3</i> |Add more info about other programming language as well.
+                    </p>
+                    <div>
+                        <label for="co"><i class="fa fa-user-circle-o"></i></label>
+                        <input type="text" placeholder="Add a comment..." id="co" name="co">
+                        <input type="submit" value="Post" style="border:none;background: transparent;">
+                    </div>
+                </div>
+            </section>
+
+        </article>
+        <br>
+    </div>
+    <hr>
+
+    <footer id="Ft">
+        <div class="F F1 ">
+            <h4><strong>Follow us <i class="fa fa-mobile "></i></strong></h4>
+            <section>
+                <!-- Twitter -->
+                <a class="btn btn-primary " style="background-color: #55acee; " href="#! " role="button "><i class="fa fa-twitter " target="_blank "></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-primary " style="background-color: #dd4b39; " href="#! " role="button "><i class="fa fa-google " target="_blank "></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-primary " style="background-color: #ac2bac; " href="#! " role="button "><i class="fa fa-instagram " target="_blank "></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-primary " style="background-color: #0082ca; " href="https://www.linkedin.com/in/ayush-buradkar-355a7316a/ " role="button " target="_blank "><i class="fa fa-linkedin "></i></a>
+
+                <!-- Youtube -->
+                <a class="btn btn-primary " style="background-color: #ed302f; " href="https://www.youtube.com/channel/UC4CjuU_K0Ea8tJrdVvQEWvg " role="button " target="_blank "><i class="fa fa-youtube "></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-primary " style="background-color: #333333; " href="https://github.com/AyuBuradkar26 " role="button " target="_blank "><i class="fa fa-github "></i></a>
+            </section>
+        </div>
+        <div class="F F2 ">
+            <h4><strong>Feedback <i class="fa fa-comment "></i></i></strong></h4>
+            <form>
+                <fieldset>
+                    <p>
+                        <label for="name ">Name:</label>
+                        <input type="text " id="name ">
+                    </p>
+                    <p>
+                        <label for="no ">Phone No.:</label>
+                        <input type="tel " id="no ">
+                    </p>
+                    <p>
+                        <label for="email ">E-mail address:</label>
+                        <input type="text " id="email ">
+                    </p>
+                    <p>
+                        <label for="mes ">Message:</label><br>
+                        <textarea id="mes " row=5 column=50></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Send message">
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+        <div class="F F3 ">
+            <h4><strong>About me <i class="fa fa-user "></i></strong></h4>
+
+            <p>
+                Name: Ayush Buradkar<br>College: D.Y.Patil college of engineering,Akurdi<br>Class: TE - A<br>Gmail:ayushburadkar056@gmail.com
+            </p>
+        </div>
+
+        <div class="F4 ">
+            <br>
+            <small>
+                &copy; Copyright 2021, Ayush Buradkar.&#128519; 
+                <a href="mailto:ayushburadkar056@gmail.com " style="color:#790766 "><i class="fa fa-envelope "></i> Contact</a>
+            </small>
+        </div>
+    </footer>
+</body>
+
+</html>

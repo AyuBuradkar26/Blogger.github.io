@@ -1,0 +1,336 @@
+body {
+    background: linear-gradient(#d3edf1 0%, #d3edf1 100%);
+    background-repeat: no-repeat;
+}
+
+.C {
+    border: 2px dotted rgb(255, 255, 255);
+    border-radius: 12px;
+    overflow-y: auto;
+    margin-top: 10%;
+    z-index: 2;
+}
+
+.scroll-up-btn {
+    position: fixed;
+    height: 40px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.scroll-up-btn:hover {
+    filter: brightness(90%);
+}
+
+.A1 p,
+.A2 p {
+    text-align: justify;
+}
+
+.A1 h2,
+.A2 h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.A1,
+.A2 {
+    background: linear-gradient(rgba(146, 228, 153, 0.993) 5%, rgb(127, 171, 236));
+    border-radius: 12px;
+    box-shadow: 2px 2px 3px 2px gray, -2px -2px 3px 2px rgb(177, 175, 175);
+    padding: 4px;
+    overflow-y: scroll;
+    display: block;
+    margin: 20px;
+    width: 60%;
+}
+
+header {
+    z-index: 4;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(yellow 20%, rgb(255, 166, 0));
+    border-radius: 8px;
+    border: 4px double rebeccapurple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#U {
+    position: absolute relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 4px rgb(0, 0, 0);
+    font-size: xx-large;
+    background-color: rgb(41, 40, 40);
+    text-align: justify;
+}
+
+#U img {
+    filter: opacity(0.6);
+}
+
+.Cleft {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    background-color: #9a9d9e77;
+    padding: 4px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: cursive;
+    line-height: 160%;
+}
+
+.Cleft a {
+    font-size: large;
+    border: 4px groove rgb(106, 14, 255);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+header nav {
+    text-align: center;
+    font-size: large;
+    background-color: rgba(146, 228, 153, 0.993);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px ridge green;
+}
+
+.A1 img,
+.A2 img {
+    border-top: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(39, 148, 39);
+    border-right: 2px solid rgb(11, 138, 11);
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+aside img:hover {
+    transition: 1.2s ease-in;
+    transform: scale(1.2);
+    transform-origin: center center;
+    filter: brightness(110%);
+    overflow: hidden;
+}
+
+.A1 div,
+.A2 div {
+    text-align: center;
+}
+
+.A1 article p,
+.A2 article p {
+    color: rgb(32, 28, 142);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(163, 160, 160);
+    border-radius: 12px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+::-webkit-scrollbar-corner {
+    border-radius: 12px;
+}
+
+.fa {
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.F1 a:hover {
+    opacity: 0.8;
+}
+
+.F {
+    float: left;
+    display: block;
+    width: 35%;
+}
+
+.F form {
+    box-shadow: 2px 2px 3px 2px gray, -2px -2px 3px 2px rgb(177, 175, 175);
+    padding: 10px;
+    width: 40%;
+    background-color: rgb(202, 238, 199);
+}
+
+.F3 p {
+    font-size: medium;
+    box-shadow: 2px 2px 3px 2px gray, -2px -2px 3px 2px rgb(177, 175, 175);
+    padding: 10px;
+    background-color: rgb(202, 238, 199);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.F3 {
+    width: 25%;
+}
+
+.F1 a {
+    box-shadow: 2px 2px 3px 1px gray, -2px -2px 3px 1px rgb(177, 175, 175);
+    margin: 4px;
+}
+
+.F4 {
+    clear: both;
+    text-align: center;
+}
+
+.F4 small {
+    background-color: rgb(202, 238, 199);
+    font-size: small;
+}
+
+footer {
+    background-color: rgba(146, 228, 153, 0.993);
+    padding: 10px;
+    margin: 5px;
+    border: 2px dashed;
+}
+
+.F1 section {
+    background-color: rgb(202, 238, 199);
+    width: 35%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 3px 1px gray, -2px -2px 3px 1px rgb(177, 175, 175);
+}
+
+.A2 button:hover,
+.A1 button:hover {
+    box-shadow: 2px 2px 3px 1px gray, -2px -2px 3px 1px rgb(177, 175, 175);
+}
+
+.I1:hover,
+.I2:hover {
+    transform: scale(1.8) translate(-6px);
+    transition: 1s;
+}
+
+.A,
+.Ab {
+    float: right;
+    width: 30%;
+    border-radius: 12px;
+}
+
+aside img {
+    padding: 4px;
+    float: left;
+}
+
+aside section:hover {
+    box-shadow: 2px 2px 3px 1px gray, -2px -2px 3px 1px rgb(177, 175, 175);
+    transition: 0.8s;
+}
+
+.D {
+    box-sizing: border-box;
+    background-color: rgb(127, 246, 255);
+}
+
+A h4 {
+    color: chocolate;
+}
+
+aside div {
+    background: linear-gradient(rgb(255, 200, 98) 1%, rgb(241, 231, 144));
+    box-shadow: 2px 2px 3px 1px gray, -2px -2px 3px 1px rgb(177, 175, 175);
+}
+
+#D3 {
+    margin-top: 20px;
+    overflow-y: auto;
+}
+
+#D1 h3 {
+    padding: 4px;
+}
+
+#D3 p {
+    font-size: medium;
+    text-align: justify;
+    padding: 4px;
+    color: chocolate;
+}
+
+aside h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 550;
+    color: rgb(255, 51, 0);
+}
+
+aside section {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.A1 h2,
+.A2 h2 {
+    font-weight: 550;
+    color: rgb(59, 85, 13);
+}
+
+.A1 input[type=text],
+.A2 input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #1d1c1c;
+    width: 80%;
+    color: #a7e9f3;
+}
+
+#cm p,
+#cm1 p {
+    padding: 2px;
+    margin: 1px;
+    color: #ccf1f7;
+}
+
+#cm,
+#cm1 {
+    background-color: #252525;
+    margin-top: 4px;
+    border-top: 2px dashed #ccf1f7;
+}
+
+#cm div,
+#cm1 div {
+    background-color: #030303;
+    padding: 2px;
+    color: #888;
+}
+
+#cm p .fa,
+#cm1 p .fa {
+    color: wheat;
+}
